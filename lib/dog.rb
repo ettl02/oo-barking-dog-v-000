@@ -1,21 +1,19 @@
 # Your code goes here!
 class Dog
-  def initialize (name)
+  def (name)
 @name = name
 end
 
-def initialize (bark = "woof!")
-  @bark = bark
+def (bark)
+   puts "woof!"
 end
 
 def name
   @name
 end
+end
 
-def bark
-  @bark
-end
-end
+
 
 
 fido = Dog.new
@@ -23,5 +21,5 @@ fido.name = "Fido"
 
 fido.name
 
-fido.bark 
+fido.bark
 woof!
