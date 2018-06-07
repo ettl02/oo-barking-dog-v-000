@@ -15,3 +15,4 @@ end
 def bark 
   @bark
 end 
+end
