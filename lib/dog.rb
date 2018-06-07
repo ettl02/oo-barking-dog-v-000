@@ -1,7 +1,12 @@
 # Your code goes here!
-class Dog 
-  def bark 
-    puts "woof!"
-  end 
-end
+class Dog
+  def initialize (name, bark = "woof!")
+    @name = name
+    @bark = bark 
+  end
 
+
+def name 
+  @name 
+end 
+end 
