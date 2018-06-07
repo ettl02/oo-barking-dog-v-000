@@ -4,11 +4,11 @@ class Dog
 @name = name
 end
 
-def (bark)
-   puts "woof!"
-end
-
 def name
   @name
+end
+
+def (bark)
+   puts "woof!"
 end
 end
